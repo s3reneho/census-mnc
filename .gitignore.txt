@@ -1,0 +1,28 @@
+# Ignore data folders
+data/*
+outputs/*
+
+# But keep folder structure
+!data/.gitkeep
+!outputs/.gitkeep
+
+# Ignore large files
+*.csv
+*.xlsx
+*.rds
+*.dta
+*.sav
+*.zip
+
+# R project files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
